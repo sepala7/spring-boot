@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3307/web_flux_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 123456
+
+server:
+  port: 8001
